@@ -1,38 +1,145 @@
-.App {
+body{
+  margin:0
+}
+
+
+/* Home style*/
+
+.logo{
+  margin-top: 5rem;
+
+  border-radius: 1rem;
+}
+
+.home{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.country-intro{
+  background-color: #f4e603;
+  width:10% ;
+  margin: 1rem auto;
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* All the Game.js styles */ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+#wrapper{
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.disappear{
+  visibility: hidden;
+}
+.great-img{
+  width:45%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.incorrect{
+  color: red;
 }
+
+.correct{
+  color: green;
+}
+
+
+#input-country{
+  padding: .6rem;
+  border-radius: .6rem;
+  border-style: none;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.new-button{
+  padding: 1rem;
+  background-color: #f4e603;
+  border-style: none;
+  border-radius: .6rem;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 1.5rem;
+}
+.new-game{
+  padding: 1rem;
+  background-color: #f4e603;
+  border-style: none;
+  border-radius: .6rem;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 1.5rem;
+}
+.timer-point{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(12, 12, 12);
+  text-align: center;
+}
+
+.new-button:hover
+ {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+/* Header.js style for NAVBAR*/
+
+.nav-header{
+  display: flex;
+  margin: .5rem;
+
+}
+
+.li-header{
+  padding: 1rem;
+  margin: 0 .5rem;
+  background-color: #f4e603;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+/* CountriesItem.js styles */
+
+li{
+  list-style-type: none;
+
+}
+
+.img-flag{
+  width: 50%;
+  border-radius: .5rem;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap:1rem;
+}
+
+.card{
+  text-align: center;
+  border: 1px solid grey;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: .5rem;
+}
+
+
