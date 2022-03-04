@@ -20,4 +20,3 @@
 
 ![This is an image](https://github.com/Matyas92/pic/blob/main/c2.png)
 
-### This app used for basics from Ania Kubow -> Crypto Dashboard in React and Nodejs
