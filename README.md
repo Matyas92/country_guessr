@@ -1,4 +1,4 @@
-# Country Guessr
+# Country Guessr with React.js
 
 - Guess the country by it's flag in a given time period. You can improve your sociology skills with this. 
 - Be advised, it is not so easy to guess the country's name hence It needs the official name. For example:
