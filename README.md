@@ -8,7 +8,7 @@
 
 - Used React.js, Axios as a data fetching library to perform HTTP request with it. Also useEffect, useState were utilized.
 - Furthermore used routes, props, components, forms, 'handlig events'.
-- Also used text animation npm package.
+- Also used text animation and react-countdown-circle-timer npm package.
 
 # How To Start 
 
